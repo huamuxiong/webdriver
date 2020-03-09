@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc7ab474-2d39-49cf-8160-876fb284578f" name="Default Changelist" comment="" />
+    <list default="true" id="bc7ab474-2d39-49cf-8160-876fb284578f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +20,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\python\PythonProject\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1YkMq82ArhcMqkhYg9jQzmOZAld" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -26,11 +35,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -171,7 +182,7 @@
       <updated>1583482326659</updated>
       <workItem from="1583482328245" duration="9624000" />
       <workItem from="1583593878218" duration="13799000" />
-      <workItem from="1583740476204" duration="2634000" />
+      <workItem from="1583740476204" duration="3358000" />
     </task>
     <servers />
   </component>
@@ -179,6 +190,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1583745114349">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1583745114349" />
+    <state x="586" y="123" key="FileChooserDialogImpl" timestamp="1583744926028">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="586" y="123" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1583744926028" />
     <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1583740169946">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -195,10 +214,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1583740169946" />
-    <state x="309" y="10" key="SettingsEditor" timestamp="1583737930293">
+    <state x="309" y="10" key="SettingsEditor" timestamp="1583744993489">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="309" y="10" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1583737930293" />
+    <state x="309" y="10" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1583744993489" />
     <state x="399" y="59" key="search.everywhere.popup" timestamp="1583484259656">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
