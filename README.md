@@ -393,9 +393,35 @@ driver.find_element_by_css_selector("#btn").click()
 
 
 
+### 处理浏览器多窗口
 
+经常会遇到一种情况，在当前窗口中，点击一个链接，会重新打开一个窗口显示其内容，并且保留当前窗口的数据显示，比如很多注册页面就是这样做的
 
+有html
 
+```html
+<a target="_blank" href="https://www.baidu.com">访问 百度 链接</a>
+```
+
+此时我们可以记录当前页的句柄（唯一值），点击了链接后获取浏览器的所有句柄，遍历判断不是当前句柄的窗口即为新打开的窗口
+
+```python
+# 获取当前窗口的句柄
+current_window_handle = driver.current_window_handle
+
+# 定位a链接并点击
+# driver.find_element_by_link_text("访问 百度 链接").click()
+driver.find_element_by_partial_link_text("百度").click()
+# 点击后获取浏览器的所有窗口的句柄
+window_handles = driver.window_handles
+
+# 遍历所有的句柄，如果不和当前的句柄相同，就切换
+for handle in window_handles:
+    if handle != current_window_handle:
+        # 切换窗口
+        driver.switch_to.window(handle)
+        driver.find_element_by_xpath('//*[@id="kw"]').send_keys("我是切换的窗口啊")
+```
 
 
 
