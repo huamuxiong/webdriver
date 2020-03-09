@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>注册页面</title>
+</head>
+<body>
+	<div id="reg" style="height: 200px;width: 500px">
+		<div id="">
+			<span>姓名：</span>
+			<input type="text" id="uname" name="uname" class="uname">
+		</div>
+		<div>
+			<span>密码：</span>
+<!--			<input type="password" id="password" name="password" class="password" >-->
+			<input type="text" id="password" name="password" class="password" >
+		</div>
+		<div id="redio">
+			<span>性别：</span>
+			<input type="radio" name="sex" checked><span>男</span>
+			<input type="radio" name="sex"><span>女</span>
+		</div>
+		<div id="hobby">
+			<span>爱好：</span>
+			<input type="checkbox" name="hobby">篮球
+			<input type="checkbox" name="hobby">足球
+			<input type="checkbox" name="hobby">乒乓球
+			<input type="checkbox" name="hobby">网球
+		</div>
+		<div id="city">
+			<span>家庭住址：</span>
+			<select name="city">
+				<option value="bj">北京</option>
+				<option value="sh">上海</option>
+				<option value="gz">广州</option>
+				<option value="fj">福建</option>
+			</select>
+		</div>
+		<div>
+			<span>点我：</span>
+			<input type="button" id="button" value="点我有惊喜哦" onclick="sub()">
+		</div>
+		<div id="btn">
+			<input type="submit" value="提交">
+		</div>
+	</div>
+	<div>
+		<p><a target="_blank" href="https://www.baidu.com">访问 百度 链接</a></p>
+		<p><a target="_blank" href="https://blog.csdn.net/geek_xiong">我的 CSDN 博客地址</a></p>
+		<p><a target="_blank" href="https://www.bilibili.com/video/av77832454?p=518">这节课的视频地址</a></p>
+	</div>
+	<iframe src="regA.html"  height="500" width="500" id="myframeA"></iframe>
+	<iframe src="regB.html"  height="500" width="500" id="myframeB"></iframe>
+	<div style="height: 300px;width: 800px">
+		<span>你好啊</span>
+	</div>
+	<div >
+		<span>我很好</span>
+	</div>
+</body>
+</html>
+<script>
+	function sub(){
+		alert("我们一起啪啪啪呀");
+	}
+</script>
