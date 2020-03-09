@@ -18,6 +18,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Jamas" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IgnoredFileRootStore">
@@ -182,18 +187,30 @@
       <updated>1583482326659</updated>
       <workItem from="1583482328245" duration="9624000" />
       <workItem from="1583593878218" duration="13799000" />
-      <workItem from="1583740476204" duration="3358000" />
+      <workItem from="1583740476204" duration="3580000" />
     </task>
+    <task id="LOCAL-00001" summary="配置PyCharm测试">
+      <created>1583745191140</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583745191140</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="配置PyCharm测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置PyCharm测试" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1583745114349">
+    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1583745182016">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1583745114349" />
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1583745182016" />
     <state x="586" y="123" key="FileChooserDialogImpl" timestamp="1583744926028">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
