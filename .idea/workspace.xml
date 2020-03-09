@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc7ab474-2d39-49cf-8160-876fb284578f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test_other.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webdriver/webdriver14_other.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reg.html" beforeDir="false" afterPath="$PROJECT_DIR$/reg.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +63,7 @@
       <recent name="D:\python\PythonProject\webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.webdriver14_other (1)">
+  <component name="RunManager" selected="Python.webdriver13_frame">
     <configuration name="webdriver11_switch_to" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -178,9 +176,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.webdriver13_frame" />
         <item itemvalue="Python.webdriver14_other (1)" />
         <item itemvalue="Python.webdriver14_other" />
-        <item itemvalue="Python.webdriver13_frame" />
         <item itemvalue="Python.webdriver12_excute_script_scroll" />
         <item itemvalue="Python.webdriver11_switch_to" />
       </list>
@@ -198,7 +196,7 @@
       <updated>1583482326659</updated>
       <workItem from="1583482328245" duration="9624000" />
       <workItem from="1583593878218" duration="13799000" />
-      <workItem from="1583740476204" duration="11959000" />
+      <workItem from="1583740476204" duration="14219000" />
     </task>
     <task id="LOCAL-00001" summary="配置PyCharm测试">
       <created>1583745191140</created>
@@ -235,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583749557324</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="webdriver的基本使用">
+      <created>1583757546151</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1583757546151</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,41 +250,42 @@
     <MESSAGE value="配置PyCharm测试" />
     <MESSAGE value="测试样式" />
     <MESSAGE value="四个基本使用的方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="四个基本使用的方法" />
+    <MESSAGE value="webdriver的基本使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="webdriver的基本使用" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1583749555224">
+    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1583757543498">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1583749555224" />
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1583757543498" />
     <state x="586" y="123" key="FileChooserDialogImpl" timestamp="1583744926028">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="586" y="123" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1583744926028" />
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1583756975523">
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1583757559253">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1583756975523" />
-    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1583756975523">
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1583757559253" />
+    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1583757559253">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1583756975523" />
-    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1583756975523">
+    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1583757559253" />
+    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1583757559253">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1583756975523" />
-    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1583756975523">
+    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1583757559253" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1583757559253">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1583756975523" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1583757559253" />
     <state x="309" y="10" key="SettingsEditor" timestamp="1583744993489">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="309" y="10" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1583744993489" />
-    <state x="275" y="104" key="Vcs.Push.Dialog.v2" timestamp="1583749581005">
+    <state x="275" y="104" key="Vcs.Push.Dialog.v2" timestamp="1583757552754">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="104" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1583749581005" />
+    <state x="275" y="104" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1583757552754" />
     <state x="399" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1583746297669">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -287,7 +293,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonProject$webdriver07_css.coverage" NAME="webdriver07_css Coverage Results" MODIFIED="1583505011032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webdriver" />
-    <SUITE FILE_PATH="coverage/PythonProject$webdriver13_frame.coverage" NAME="webdriver13_frame Coverage Results" MODIFIED="1583653285187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webdriver" />
+    <SUITE FILE_PATH="coverage/PythonProject$webdriver13_frame.coverage" NAME="webdriver13_frame Coverage Results" MODIFIED="1583759147399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webdriver" />
     <SUITE FILE_PATH="coverage/PythonProject$webdriver04_link_text.coverage" NAME="webdriver04_link_text Coverage Results" MODIFIED="1583504658221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webdriver" />
     <SUITE FILE_PATH="coverage/PythonProject$webdriver_class.coverage" NAME="webdriver_class Coverage Results" MODIFIED="1583490935136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$webderver_id.coverage" NAME="webderver_id Coverage Results" MODIFIED="1583484550372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webdriver" />
