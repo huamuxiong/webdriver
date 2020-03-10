@@ -425,9 +425,51 @@ for handle in window_handles:
 
 
 
+### 窗口截图
+
+把当前窗口截图保存到指定的位置
+
+```python
+driver.get_screenshot_as_file(imgPath)
+```
 
 
 
+### 处理验证码
+
+1、注释----测试环境
+
+2、设置万能验证码-----生产环境
+
+3、cookie----推荐
 
 
+
+关于cookie的几种用法
+
+get_cookie(name) # 获取cookie
+
+get_cookies() # 获取所有的cookie
+
+add_cookie(str) # 添加cookie 字典格式
+
+ 
+
+作用：绕过验证码登录
+
+记录：登录后的用户名和密码，把加密后的用户名和密码信息一起发送给服务器
+
+提示：记得要刷新
+
+
+
+登录百度示例
+
+```python
+driver.get("https://www.baidu.com")
+driver.add_cookie({"name": "BAIDUID", "value": "id"})
+driver.add_cookie({"name": "BDUSS", "value": "bduss"})
+time.sleep(3)
+driver.refresh()
+```
 
